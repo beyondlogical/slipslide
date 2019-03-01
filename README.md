@@ -52,11 +52,11 @@ All of these shortcuts can also be seen during a presentation by pressing H or ?
  /build_decks.php   (assembles the modules in order, builds the html page for the presentation)
  /index.html        (links to class decks at top level because of running local server, manually edited)
 
- /modules/CATEGORY.TOPIC.md
+ /modules/MODULE-NAME/CATEGORY.TOPIC.md
  ...
  /build/ (where output is sent)
  ...
- /decks/ (move completed files here to prevent overwriting)
+ /decks/ (move completed files here to preserve)
  ...
  /media/slipslide.jpg
  ...
@@ -112,4 +112,14 @@ Here is the current method for styling:
 ## Additional styling references
 * [remark Styling](https://github.com/gnab/remark/wiki/Styling)
 * [markdown styling](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+# Made at Checkmate
+![Checkmate](media/checkmate-logo.svg)
+
+Special thanks to the team at [Checkmate](https://checkmate.digital/)
+
+# License
+[MIT License](LICENSE.md)
+
+Copyright (c) [2019] [RJ Herrick]
 
